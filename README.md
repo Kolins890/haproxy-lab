@@ -68,7 +68,7 @@ global
 
 defaults
     log global
-    mode http  # 7-й уровень (HTTP)
+    mode http  
     option httplog
     option dontlognull
     timeout connect 5000
