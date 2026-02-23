@@ -10,7 +10,9 @@
 Решение
 
 https://github.com/Kolins890/haproxy-lab/blob/main/haproxy-1.cfg
+
 https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%201.1.PNG?raw=true
+
 https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%201.2.PNG?raw=true
 
 Задание 2
@@ -23,5 +25,7 @@ HAproxy должен балансировать только тот http-тра�
 Решение
 
 https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%202.1.PNG?raw=true
+
 https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%202.2.PNG?raw=true
+
 https://github.com/Kolins890/haproxy-lab/blob/main/haproxy-2.cfg
