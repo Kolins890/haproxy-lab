@@ -26,6 +26,8 @@ HAproxy должен балансировать только тот http-тра�
 
 for i in {1..10}; do curl http://127.0.0.1/; sleep 1; done
 
+https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%202.1%20запросы.PNG
+
 https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%202.1.PNG?raw=true
 
 https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%202.2.PNG?raw=true
