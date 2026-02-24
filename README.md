@@ -9,10 +9,9 @@
 
 Решение
 
+<img width="1356" height="521" alt="image" src="https://github.com/user-attachments/assets/8ca1def5-b53d-46ac-88d9-c4833525aef9" />
+
 https://github.com/Kolins890/haproxy-lab/blob/main/haproxy-1.cfg
-
-https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%201.1.PNG?raw=true
-
 
 Задание 2
 
@@ -25,11 +24,13 @@ HAproxy должен балансировать только тот http-тра�
 Запустил серию запросов, они будут распределяться между двумя серверами:
 
 for i in {1..10}; do curl http://127.0.0.1/; sleep 1; done
+<img width="1361" height="160" alt="image" src="https://github.com/user-attachments/assets/1902254c-fafb-4d50-a163-2895ae132d20" />
 
-https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%202.1%20запросы.PNG
+<img width="1366" height="515" alt="image" src="https://github.com/user-attachments/assets/26074e1e-7ee2-438b-a79e-d9ca3b8fe207" />
 
-https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%202.1.PNG
 
-https://github.com/Kolins890/haproxy-lab/blob/main/HAProxy%202.2.PNG
+
+
+
 
 https://github.com/Kolins890/haproxy-lab/blob/main/haproxy-2.cfg
