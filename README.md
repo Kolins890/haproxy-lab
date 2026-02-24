@@ -11,7 +11,6 @@
 
 <img width="1356" height="521" alt="image" src="https://github.com/user-attachments/assets/8ca1def5-b53d-46ac-88d9-c4833525aef9" />
 
-
 Задание 2
 
 Запустите три simple python сервера на своей виртуальной машине на разных портах
