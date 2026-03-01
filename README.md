@@ -8,16 +8,6 @@
 На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
 Решение
-<img width="424" height="179" alt="image" src="https://github.com/user-attachments/assets/143cc368-c78f-4894-af45-e61852e68d3a" />
-
-
-<img width="1366" height="610" alt="image" src="https://github.com/user-attachments/assets/030f90ba-3804-4386-9748-ca421a1462cc" />
-
-
-<img width="1356" height="521" alt="image" src="https://github.com/user-attachments/assets/8ca1def5-b53d-46ac-88d9-c4833525aef9" />
-
-
-
 
 Задание 2
 
@@ -47,31 +37,6 @@ global
 
 defaults
     log global
-    mode tcp  # 4-й уровень (TCP)
-    option tcplog
-    option dontlognull
-    timeout connect 5000
-    timeout client 50000
-    timeout server 50000
-
-frontend http_front
-    bind *:8082
-    default_backend http_back
-
-backend http_back
-    balance roundrobin
-    server server1 127.0.0.1:8080 check
-    server server2 127.0.0.1:8081 check
-
-listen stats
-    bind :9000
-    mode http
-    stats enable
-    stats uri /stats
-    stats auth admin:password
-
-defaults
-    log global
     mode http  # 7-й уровень (HTTP)
     option httplog
     option dontlognull
@@ -93,6 +58,13 @@ backend http_back
 
 backend http_default
     http-request deny deny_status 403
+
+listen stats
+    bind :9000
+    mode http
+    stats enable
+    stats uri /stats
+    stats auth admin:password
 
 listen stats
     bind :9000
