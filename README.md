@@ -102,10 +102,3 @@ listen stats
     stats enable
     stats uri /stats
     stats auth admin:password
-
-listen stats
-    bind :9000
-    mode http
-    stats enable
-    stats uri /stats
-    stats auth admin:password
