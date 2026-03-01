@@ -8,6 +8,11 @@
 На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
 Решение
+<img width="424" height="179" alt="image" src="https://github.com/user-attachments/assets/143cc368-c78f-4894-af45-e61852e68d3a" />
+
+
+<img width="1366" height="610" alt="image" src="https://github.com/user-attachments/assets/030f90ba-3804-4386-9748-ca421a1462cc" />
+
 
 <img width="1356" height="521" alt="image" src="https://github.com/user-attachments/assets/8ca1def5-b53d-46ac-88d9-c4833525aef9" />
 
