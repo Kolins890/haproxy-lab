@@ -11,6 +11,10 @@
 
 https://github.com/Kolins890/haproxy-lab/blob/main/configs/haproxy-1.cfg
 
+<img width="1366" height="489" alt="image" src="https://github.com/user-attachments/assets/8810c050-2a63-47c4-b192-45a4550b8dcb" />
+
+<img width="1366" height="321" alt="image" src="https://github.com/user-attachments/assets/efb18bc2-956e-4b75-8505-1c72275709f6" />
+
 
 Задание 2
 
